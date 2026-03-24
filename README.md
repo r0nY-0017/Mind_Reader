@@ -13,7 +13,7 @@ A magical mind-reading game where your thoughts mysteriously choose icons! ✨
 4. **Find your result** in the magical icon grid
 5. **Click "Reveal"** to see the magic!
 
-> 💡 **The Trick**: All multiples of 9 (9,18,27,36,45,54,63,72,81,90,99) share the SAME secret icon - that's the mind-reading magic!
+
 
 ## 🌟 Features
 
