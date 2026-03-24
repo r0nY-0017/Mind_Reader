@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>✨ Mind Game — Magic Icons ✨</title>
+    <!-- Font Awesome 6 (free icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="game-container">
+    <h1><i class="fas fa-wand-magic"></i> Mind Game <i class="fas fa-hat-wizard"></i></h1>
+
+    <!-- 4 steps as column boxes -->
+    <div class="steps-row">
+        <div class="step-box"><div class="step-number">1</div><div class="step-text">Choose any number between 0 and 99</div></div>
+        <div class="step-box"><div class="step-number">2</div><div class="step-text">Add both digits & subtract from your number</div></div>
+        <div class="step-box"><div class="step-number">3</div><div class="step-text">Find the ICON of the current result</div></div>
+        <div class="step-box"><div class="step-number">4</div><div class="step-text">Click "Reveal" — see the magic!</div></div>
+    </div>
+
+    <!-- grid header -->
+    <div class="grid-header">
+        <div class="grid-top-bar">
+            <button id="refreshBtn" class="refresh-btn"><i class="fas fa-arrows-rotate"></i> Refresh icons</button>
+        </div>
+    </div>
+
+    <!-- icon grid: 15 columns x 7 rows = 105 cells, but we have 100 numbers, so we'll create 5 extra placeholder cells -->
+    <div id="iconsGrid" class="icons-grid"></div>
+
+    <!-- reveal button below grid -->
+    <div class="reveal-area">
+        <button id="revealMagicBtn" class="reveal-magic-btn"><i class="fas fa-eye"></i>Now Click to see your Mind</button>
+    </div>
+</div>
+
+<!-- modal popup for revealed icon -->
+<div id="resultModal" class="modal-overlay">
+    <div class="modal-content">
+        <div class="modal-icon" id="modalIcon"><i class="fas fa-star"></i></div>
+        <div class="modal-title">✨ Your Secret Symbol ✨</div>
+        <div class="modal-subtitle">The icon your mind chose...</div>
+        <button class="close-modal" id="closeModalBtn">Play Again</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
