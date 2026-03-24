@@ -2,7 +2,8 @@
 
 A magical mind-reading game where your thoughts mysteriously choose icons! ✨
 
-![Game Preview](https://via.placeholder.com/800x400/ffe6d5/6b3f2e?text=Icon+Mind+Wizard+Game)
+<img width="1917" height="946" alt="image" src="https://github.com/user-attachments/assets/ab4b1011-cf1e-4396-a90d-e65f6074aa78" />
+
 
 ## 🎮 How to Play
 
@@ -26,7 +27,7 @@ A magical mind-reading game where your thoughts mysteriously choose icons! ✨
 
 ## 🚀 Live Demo
 
-[Play Icon Mind Wizard](https://r0nY-0017.github.io/Mind_Reader/)
+[Play Mind Reader](https://mind-reader-seven.vercel.app/)
 
 ## 🛠️ Technologies Used
 
@@ -119,11 +120,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Mehedi Hasan**
 - GitHub: [@r0nY-0017](https://github.com/r0nY-0017)
-- Email: your-email@example.com
+- Email: hasan15-5976@diu.edu.bd
 
 ---
 
 **Made with ❤️ and a dash of magic!** 🪄✨
 
 *Remember: The mind is the most powerful magic of all!* 🧠</content>
-<parameter name="filePath">c:\Users\Mehedi (AI)\Downloads\MindGame\README.md
