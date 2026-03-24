@@ -1,4 +1,4 @@
-# 🪄 Icon Mind Wizard
+# 🪄Mind Reader
 
 A magical mind-reading game where your thoughts mysteriously choose icons! ✨
 
